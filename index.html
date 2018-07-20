@@ -12,10 +12,33 @@
     <div class="container">
         <h1>Shopping List</h1>
         <form id="js-shopping-list-form">
-            <label for="shopping-list-entry">Add an item</label>
+
             <input type="text" name="shopping-list-entry" class="js-shopping-list-entry" placeholder="e.g., broccoli">
-            <button type="submit">Add item</button>
+            <button type="submit">Add item</button> 
         </form>
+        <form >
+          	      <input type="radio" class = "js-dispay-unchecked" name="display" id = "js-display-unchecked"> Display only Unchecked<br>
+
+          	      <input type="radio" class = "js-dispay-all" name="display"
+                  id = "js-display-all"> Display checked/unchecked items<br>
+
+        </form>
+
+        
+        </form>
+
+        
+        <form id="js-search-form">
+            <input type="text" name="search-entry" class="js-search-entry" placeholder="e.g., broccoli">
+            <button type="submit">Search</button> 
+
+
+        </form>
+          <form id="js-reset">
+            <button type="submit">Reset Visibility</button> 
+        </form>
+
+
         <ul class="shopping-list js-shopping-list">
         </ul>
     </div>
